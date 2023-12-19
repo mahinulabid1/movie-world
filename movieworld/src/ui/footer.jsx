@@ -24,23 +24,25 @@ const Footer = () => {
                 </div>
 
                 <div className={styles.infoAndLinks}>
-                    <a href="/" className={styles.footerLogo}>Logo</a>
+                    <a href="/" className={styles.footerLogo}>
+                        <img src="./LOGO.png" alt="" />
+                    </a>
                     <p>
                         © 2023 movieworld.com. All rights reserved. This site is not affiliated
                         or owned by the listed movie streaming platform owners.
                     </p>
 
                     <div className={ "flex " + styles.socialLinkContainer }>
-                        <a href="#">facebook</a>
-                        <a href="#">twitter</a>
-                        <a href="#">linkedin</a>
+                        <a href="#"> <img src="./icons/facebook.svg" alt="" /> </a>
+                        <a href="#"> <img src="./icons/twitter.svg" alt="" /> </a>
+                        <a href="#"> <img src="./icons/linkedIn.svg" alt="" /> </a>
                     </div>
                 </div>
             </div>
             
             <hr className={styles.hr} />
             <div className={styles.copyrightInfo}>
-                copyright text
+                Copyright ©2023 movieworld. ALL Rights Reserved.
             </div>
         </footer>
     )
