@@ -6,13 +6,15 @@ const Navigation = ( ) => {
         <>
             <nav className={"flex bound flex-s-b flex-align-center " + styles.navContainer}>
 
-                <a href = "/"> Logo </a>
+                <a className={ styles.logo } href = "/" > <img src="./LOGO.png" alt=""  /> </a>
                 <input type="text" placeholder="Search Movies"/>
-                <a href="/getpro">Get Pro</a>
-                <a href="/movies">Movies</a> 
-                <a href="/watchlist">WatchList</a>
-                <button>En DropIcon</button>
-                <button>UserIcon</button>
+                <a className={styles.getProButton} href="/getpro">Get Pro</a>
+                <a className={styles.links} href="/movies">Movies</a> 
+                <a className={styles.links} href="/watchlist">WatchList</a>
+                {/* <button>En DropIcon</button> */}
+                <button className={styles.userIcon}>
+                    <img  src="./userIcon.svg" alt="" />
+                </button>
 
 
 
