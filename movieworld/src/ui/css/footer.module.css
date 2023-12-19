@@ -1,0 +1,55 @@
+.container {
+    font-size: 15px;
+}
+
+.container a{
+    display : block;
+}
+
+.container a:link,
+.container a:visited {
+    text-decoration: none;
+    color: black;
+    letter-spacing: 0;
+}
+
+.container a:hover,
+.container a:active{
+    text-decoration : underline;
+    color : blue;
+}
+
+.container a:not(.footerLogo) {
+    margin: 10px 0; 
+}
+
+.flexContainer {
+    padding: 50px 0;
+}
+
+.footerHeading,
+.footerLogo {
+    margin-bottom : 40px;
+}
+
+.flexItem {
+    margin-right : 200px;
+    min-width: 220px;
+}
+
+.socialLinkContainer {
+    margin-top : 40px;
+}
+
+.hr {
+    margin: 0px 100px;
+    display: block;
+    height: 1px;
+    border: 0;
+    border-top: 2px solid green;
+}
+
+.copyrightInfo{
+    text-align: center;
+    margin : 40px 0;
+}
