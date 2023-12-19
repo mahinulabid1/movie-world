@@ -1,0 +1,14 @@
+.container{
+    margin-bottom: 100px;
+}
+
+.container h1 {
+    text-align: center;
+    color : #0399FA;
+    margin-bottom : 80px;
+}
+
+.container h1 span {
+    color: #F4C518;
+}
+

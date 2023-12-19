@@ -1,0 +1,57 @@
+.container{
+    margin-top : 63px;
+    margin-bottom: 200px;
+}
+
+.heading {
+    margin-bottom :36px;
+    margin-top : 150px;
+}
+
+.headingDescription{
+    font-size : 21px;
+}
+.heading, 
+.headingDescription {
+    text-align: center;
+}
+
+.sliderItem, 
+.sliderItemActive {
+    margin: 0 20px;
+    position: relative;
+    border-radius : 18px;
+    overflow: hidden;
+}
+
+.sliderItem {
+    height : 425px;
+    width : 343px;
+}
+
+.sliderItemActive {
+    height : 508px;
+    width : 404px;
+    border: 5px solid red;
+}
+.sliderItem img,
+.sliderItemActive img
+{
+    height : 100%;
+    width :100%;
+    opacity : 0.8;
+    object-fit: cover;
+}
+
+.movieTitle{
+    text-transform: uppercase;
+    position: absolute;
+    width: 100%;
+    bottom :0;
+    background: rgba(0, 0, 0, 0.11);
+    color: white;
+    text-align : center;
+    line-height: 94px;
+    backdrop-filter: blur(5px);
+    font-weight: 600;
+}
