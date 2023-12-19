@@ -72,3 +72,15 @@ body{
     font-family: 'Roboto', sans-serif;
 }
 ```
+
+
+## color variable 
+* Blue Color : #0399FA
+* Yellow Color : #F5C618
+* Linear Gradient CSS CODE :
+```css
+.sample{
+    background: rgb(2,0,36);
+    background: linear-gradient(93deg, rgba(2,0,36,1) 0%, rgba(3,152,249,1) 0%, rgba(54,8,176,1) 100%);
+}
+```
