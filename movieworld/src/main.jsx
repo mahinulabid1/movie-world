@@ -1,10 +1,8 @@
 import React from 'react'
 import ReactDOM from 'react-dom/client'
+import { RouterProvider } from "react-router-dom";
 import routeHandler from './routeHandler.jsx'
-import {
-  createBrowserRouter,
-  RouterProvider,
-} from "react-router-dom";
+import "./css/universalCssFile.css"
 
 
 ReactDOM.createRoot(document.getElementById("root")).render(
