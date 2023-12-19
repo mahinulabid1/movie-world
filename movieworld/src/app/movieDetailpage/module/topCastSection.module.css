@@ -1,0 +1,42 @@
+.container {
+    margin-top: 250px;
+    margin-bottom : 200px;
+}
+
+.container h2{
+    margin-bottom: 57px;
+}
+
+.container h2 span {
+    color: blue;
+}
+
+.flexItem{
+    min-height: 140px;
+    width: 310px;
+    margin-right: 25px;
+    margin-bottom: 25px;
+    background: #13171A;
+    padding: 25px;
+    color:white;
+
+}
+
+.flexItem img {
+    height: 80px;
+    width: 80px;
+    object-fit: cover;
+    border-radius: 50%;
+    margin-right: 20px;
+}
+
+.castRealName {
+    font-size: 22px;
+    margin-bottom: 5px;
+    margin-top: 10px;
+}
+
+.characterName{
+    font-size: 15px;
+    opacity: 0.6;
+}
