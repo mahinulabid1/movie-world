@@ -6,8 +6,8 @@ const MovieInfo = () => {
         <>
             <div className={styles.container + ' flex flex-s-b bound'}>
                 <div className={ styles.flexItem }>
-                    <p className={styles.movieContentInfo}>EPISODES <span>121</span></p>
-                    <p className={styles.movieContentInfo}>PHOTOES <span>3</span></p>
+                    <p className={styles.movieContentInfo}>EPISODES <span>(121)</span></p>
+                    <p className={styles.movieContentInfo}>PHOTOES <span>(3)</span></p>
                 </div>
                 <div className={ styles.flexItem }>
                     <p className={styles.movieDescription}>
@@ -19,11 +19,11 @@ const MovieInfo = () => {
                     </p>
 
                     <div className={styles.creatorsTeamInfo}>
-                        <span>Producer :</span> Julie Pleckevin
+                        <span>Producer: </span> Julie Pleckevin
                     </div>
 
                     <div className={styles.creatorsTeamInfo}>
-                        <span>Starrer :</span> 
+                        <span>Starrer: </span>  
                         Nina DorevPaul,
                         Jakie Chan
                     </div>

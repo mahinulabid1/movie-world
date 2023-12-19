@@ -1,6 +1,8 @@
 .container {
-    margin-top: 250px;
-    margin-bottom : 200px;
+    padding-top: 116px;
+    padding-bottom : 116px;
+    background: rgba(0, 0, 0, 0.947);
+    color: white;
 }
 
 .container h2{
@@ -8,7 +10,7 @@
 }
 
 .container h2 span {
-    color: blue;
+    color: #0399FA;
 }
 
 .flexItem{

@@ -1,8 +1,18 @@
+.section {
+    padding-top :116px;
+    background: black;
+    color: white;
+}
+
+.flexItem {
+    margin-top: 20px;
+    position :relative;
+}
+
 .flexItem:nth-of-type(1){
     width: 352px;
     margin-right : 60px;
 }
-
 
 .flexItem img {
     height: 521px;
@@ -10,6 +20,26 @@
     object-fit: cover;
 }
 
+.playVideoButton{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background :none;
+    border: none;
+    color: white;
+    font-size: 22px;
+    /* width :200px; */
+    cursor: pointer;
+}
+
+.playVideoButton img{
+    height: 30px;
+    object-fit: contain;
+    border-radius: 50%;
+    border: 2px solid white;
+    margin-right : 10px;
+}
 /* .flexItem:nth-of-type(2){
     width: 58%;
 } */
