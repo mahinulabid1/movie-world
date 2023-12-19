@@ -17,19 +17,19 @@ const SliderTempalate = ({data}) => {
                                     <h3>{el.title}</h3>
 
                                     <div className={styles.ratingContainer + " flex"}>
-                                        <p>star</p>
+                                        <p><img src="./ratingIcon.svg" alt="" /></p>
                                         <p>8.5</p>
                                     </div>
 
                                     {/* watch list button */}
-                                    <button>
-                                        <span>+</span>
-                                        <span>WATCH LIST</span>
+                                    <button className={styles.watchListButton+ " " + styles.button}>
+                                        <span className={styles.plusIcon}> + </span>
+                                        <span> WATCH LIST</span>
                                     </button>
 
                                     {/* trailer button */}
-                                    <button>
-                                        <span>icon</span>
+                                    <button className={ styles.watchTrailerButton+ " " + styles.button }>
+                                        <span><img src="./icons/playIcon.svg" alt="" /></span>
                                         <span>TRAILER</span>
                                     </button>
                                 </div>

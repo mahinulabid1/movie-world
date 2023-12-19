@@ -11,7 +11,7 @@
 }   
 
 .sliderItem:hover {
-    border: 4px solid red;
+    border: 4px solid #0399FA;
 }
 
 .imageContainer { 
@@ -27,4 +27,49 @@
 
 .descriptionContainer{
     padding: 22px 15px;
+}
+
+.descriptionContainer h3{
+    text-transform: uppercase;
+}
+
+.ratingContainer{
+    margin-bottom: 15px;
+}
+
+.ratingContainer p img{
+    height: 16px;
+    object-fit: contain;
+    margin-right: 10px;
+}
+
+.button{
+    cursor:pointer;
+    color:white;
+    font-size :18px;
+}
+
+.watchListButton{
+    display:block;
+    border: none;
+    border-radius: 30px;
+    line-height: 55px;
+    width: 212px;
+    background: rgb(2,0,36);
+    background: linear-gradient(93deg, rgba(2,0,36,1) 0%, rgba(3,152,249,1) 0%, rgba(54,8,176,1) 100%);
+    margin-bottom: 20px;
+}
+
+.watchTrailerButton{
+    border: none;
+    background: none;
+}
+
+.watchTrailerButton img{
+    height: 25px;
+    margin-right: 10px;
+    border: 1px solid white;
+    border-radius: 50%;
+    position: relative;
+    top: 4px;
 }
