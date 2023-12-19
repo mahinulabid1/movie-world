@@ -25,11 +25,10 @@ font-family: 'Roboto', sans-serif;
 
 * Import link that can be used in CSS files
 ```css
-@import url('https://fonts.googleapis.com/css2?family=Passion+One&family=Roboto:wght@400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@600;700&display=swap');
 
 body{
-    font-family: 'Passion One', sans-serif;
-    font-family: 'Roboto', sans-serif;  
+    font-family: 'Oswald', sans-serif;
 }
 ```
 
