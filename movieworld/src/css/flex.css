@@ -1,0 +1,21 @@
+/* FLEX LAYOUTS */
+/* ============================== */
+.flex {
+    display : flex;
+}
+
+.flex-s-b {
+    justify-content: space-between;
+}
+
+.flex-s-a {
+    justify-content: space-around;
+}
+
+.flex-s-e {
+    justify-content: space-evenly;
+}
+
+.flex-align-center {
+    align-items: center;
+}
