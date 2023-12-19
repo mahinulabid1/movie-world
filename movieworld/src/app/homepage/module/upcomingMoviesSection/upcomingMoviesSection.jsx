@@ -45,25 +45,28 @@ const UpcomingMoviesSection = () => {
 
     return ( 
         <>
-            <h1 className={styles.heading}> UPCOMING <span className={styles.headingSpan}>MOVIES</span></h1>
-            <p className={styles.headingDescription}>We constantly offer new movies</p>
+            <section className={styles.section}>
+                <h1 className={styles.heading}> UPCOMING <span className={styles.headingSpan}>MOVIES</span></h1>
+                <p className={styles.headingDescription}>We constantly offer new movies</p>
 
-            <div className={"flex flex-align-center " + styles.container}>
-                {
-                    data.map((element, index) => {
-                        
-                        return (
-                            <>
-                                {index === 2 ? 
-                                    <ActiveItem element={ element } index={ index }/> 
-                                    : 
-                                    <NonActiveItem element= { element } index={ index }/>
-                                }
-                            </>        
-                        )
-                    })
-                }
-            </div>
+                <div className={"flex flex-align-center " + styles.container}>
+                    {
+                        data.map((element, index) => {
+                            
+                            return (
+                                <>
+                                    {index === 2 ? 
+                                        <ActiveItem element={ element } index={ index }/> 
+                                        : 
+                                        <NonActiveItem element= { element } index={ index }/>
+                                    }
+                                </>        
+                            )
+                        })
+                    }
+                </div>
+            </section>
+            
         </>
     )
 }

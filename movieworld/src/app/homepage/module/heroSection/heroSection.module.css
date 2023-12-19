@@ -1,9 +1,19 @@
 .container {
-    margin-top : 30px;
+    padding-top : 130px;
+    padding-bottom: 200px;
+    color: white;
 }
 
 .textContainer{
     margin-right: 132px;
+}
+
+.textContainer h1{
+    color : #0399FA;
+}
+
+.priceInfo{
+    color : #F5C618;
 }
 
 .sliderContainer {
@@ -13,7 +23,7 @@
 .sliderContainer img{
     height : 613px;
     width : 415px;
-    object-fit : contain;
+    object-fit : cover;
 }
 
 .leftButton, 
@@ -26,25 +36,46 @@
 .rightButton{
     top: 50%;
     transform: translateY(-50%);
+    border: none;
+    cursor: pointer;
+    padding: 10px;
+    border-radius: 5px;
 }
 
 .leftButton {
-    left : -3%;
+    left : -4%;
+
+}
+
+.leftButton img,
+.rightButton img
+{
+    height: 25px;
+    object-fit: contain;
+    width: 20px;
 }
 
 .rightButton {
-    right: -3%;
+    right: -4%;
 }
 
 .watchLink {
-    bottom: 10px;
+    bottom: -11px;
     left: 50%;
-    transform : translateX(-50%);
-    background: blue;
+    transform : translate(-50%, 0);
+    background: rgb(2,0,36);
+    background: linear-gradient(93deg, rgba(2,0,36,1) 0%, rgba(3,152,249,1) 0%, rgba(54,8,176,1) 100%);
     line-height: 70px;
     width : 286px;
-    color: rgba(255, 255, 255, 0.795);
+    color: white;
     text-decoration : none;
     text-align: center;
     border-radius : 33px;
+    transition: transform 400ms;
 }
+
+.watchLink:hover{
+    transform: translate(-50%, 10px);
+}
+
+/* rgba(3,152,249,1) */

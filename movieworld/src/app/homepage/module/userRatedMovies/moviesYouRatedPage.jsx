@@ -1,4 +1,4 @@
-import styles from "./userRatedMovies.module.css"
+import styles from "./moviesYouRatedPage.module.css"
 import SliderTempalate from "../../../../ui/sliderTemplate/sliderTemplateOne"
 const data = [
     {
@@ -23,7 +23,7 @@ const data = [
     },
 ]
 
-const UserRatedMovies = () => {
+const MoviesYouRated = () => {
 
     return (
         <>
@@ -36,4 +36,4 @@ const UserRatedMovies = () => {
     )
 }
 
-export default UserRatedMovies;
+export default MoviesYouRated;
