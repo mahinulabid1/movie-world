@@ -1,6 +1,6 @@
 # Universal CSS for every React Component
-
-This Css file has universal styles which should be available for all the react components.
+These are the CSS rules, that will be has available for all the react components. These rules will be used in every React Component.
+> Universal CSS naming will not be `camelCase`. It will use `-` in naming. While react's CSS module naming will be `camelCase`
 
 ### Heading Fonts:
 * Font name : Oswald
