@@ -56,6 +56,16 @@ const MovieSchema = new mongoose.Schema(
             type : String,
             required :  [true, "director Name is missing"]
         },
+        isFeatured: {
+            //featured movie's information will appear on homepage hero section
+            type: Boolean,
+            required: [true, "isFeatured not defined"]
+        },
+        isReleased : {
+            type: Boolean,
+            required : [true, "isReleased not defined"]
+        }
+
     },
     {
         collection : "MovieDB"
