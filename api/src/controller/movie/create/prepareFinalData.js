@@ -14,15 +14,15 @@ const prepareFinalData = ( req ) => {
     // preparing additional data to be sent to MongoDB
     const fileInfoObj = {
         movieCover : {
-            url : `${cloudfrontUrl}/${uploadedMovieCover}`,
+            url : `${cloudfrontUrl}/movie/${uploadedMovieCover}`,
             imageName : uploadedMovieCover
         },
         movieThumbnail : {
-            url : `${cloudfrontUrl}/${uploadedMovieThumbnail}`,
+            url : `${cloudfrontUrl}/movie/${uploadedMovieThumbnail}`,
             imageName : uploadedMovieThumbnail
         },
         trailerThumbnail : {
-            url : `${cloudfrontUrl}/${uploadedTrailerThumbnail}`,
+            url : `${cloudfrontUrl}/movie/${uploadedTrailerThumbnail}`,
             imageName : uploadedTrailerThumbnail
         }
     }
