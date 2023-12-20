@@ -5,8 +5,6 @@ import MoviesYouRated from "./module/userRatedMovies/moviesYouRatedPage";
 import UserWatchList from "./module/userWatchList/userWatchList"
 import UserAddedMovies from "./module/userAddedMovies/myAddedMovies";
 import Footer from "../../ui/footer/footer";
-import {useState, useEffect} from 'react';
-import axios from 'axios'
 
 const Homepage = () => {
 
