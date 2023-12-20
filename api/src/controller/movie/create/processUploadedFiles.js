@@ -1,5 +1,5 @@
 const fs = require('fs');
-const {uploadS3} = require('../../../AWS S3/uploadFile');
+const {uploadS3} = require('../../../AWS_S3/uploadFile');
 
 const processUploadedFile = ( req ) => {
     const files = req.files;
