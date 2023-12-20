@@ -1,7 +1,9 @@
 // Goal: merge all files into One
-require('./getAllMoviesList');
-require('./getSingleMovieById');
-require('./createNewData');
+require('./getAllMoviesRoute');
+require('./getFeaturedMovieRoute');
+require('./getMovieByIdRoute');
+require('./newDataRoute');
+require('./getUpcomingMovieRoute');
 
 
 // const fs = require('fs');

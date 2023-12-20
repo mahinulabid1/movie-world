@@ -1,5 +1,5 @@
 const {app, upload} = require('../../../index');
-const {createMovieData} = require('../../controller/movie/create/createMovieData');
+const {createMovieData} = require('../../controller/movie/create/insertDataController');
 
 const fileFields = [
     {
