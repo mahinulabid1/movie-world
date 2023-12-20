@@ -1,9 +1,9 @@
 import styles from "./movieDetail.module.css"
-import Navigation from "../../ui/navigation";
+import Navigation from "../../ui/navigation/navigation";
 import MovieThumbnail from "./module/movieThumbnail";
 import MovieInfo from "./module/movieInfo";
 import TopCast from "./module/topCastSection";
-import Footer from "../../ui/footer";
+import Footer from "../../ui/footer/footer";
 
 const MovieDetailPage = () => {
 
