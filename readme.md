@@ -13,9 +13,8 @@
 <br>
 
 ## Application Start:
-> A brief guide of how to start Project
+A brief guide of how to start Project
 
-<br>
 
 ### React 
 > Assuming you're on the main directory of the project. Run this code in terminal
@@ -23,7 +22,7 @@
 cd movieworld
 npm run dev
 ``` 
-This is start compiling the react component and host on localhost.
+This will start compiling the react component and host on localhost.
 
 <br>
 
@@ -33,4 +32,4 @@ This is start compiling the react component and host on localhost.
 cd api
 npm run start
 ``` 
-This is start server on localhost within specific PORT.
+This will start server on localhost within specific PORT.
