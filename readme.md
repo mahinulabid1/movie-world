@@ -5,6 +5,7 @@
 2. [Start Development Server](#Start-Development-Server)
     - [Start Node.js Server](#Node-Server)
     - [Start React.js Server](#React-Server)
+3. [API route Explaination]()
 
 
 <br>
@@ -35,6 +36,21 @@ root_Folder
     |- index.js : main file of the API
     |- package.json
     |- packagelock.json
+```
+
+<br>
+
+#### movieworld Folder Structure
+```
+    movieworld
+        |- public           : contains all static image & video file.
+        |- src              : source of the whole `react application`.
+        |- .eslintrc.cjs
+        |- README.md
+        |- index.html       : Main html file where react component gets rendered.
+        |- package.json
+        |- package-lock.json
+        |- vite.config.js 
 ```
 
 
@@ -70,6 +86,21 @@ cd api
 npm run start
 ``` 
 This will start server on localhost within specific PORT.
+
+<br>
+<br>
+
+
+## API Route Define
+Here I'm pointing out some API route 
+
+<br>
+
+#### Get all movie Item
+```console
+route LINK: http://localhost:8000/allMovies
+response: it fetches all movies list from the databas, if the database is big  this will take a lot of time
+```
 
 
 

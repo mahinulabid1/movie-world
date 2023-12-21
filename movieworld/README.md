@@ -8,11 +8,11 @@ This folder contains all files related to Front-End of the website.
 ## Folder Structure
 ```
     movieworld
-        |- public : contains all static image & video file.
-        |- src : source of the whole `react application`.
+        |- public           : contains all static image & video file.
+        |- src              : source of the whole `react application`.
         |- .eslintrc.cjs
         |- README.md
-        |- index.html : Main html file where react component gets rendered.
+        |- index.html       : Main html file where react component gets rendered.
         |- package.json
         |- package-lock.json
         |- vite.config.js 
