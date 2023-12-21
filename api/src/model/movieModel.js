@@ -4,7 +4,7 @@ const MovieSchema = new mongoose.Schema(
     {
         movieName : {
             type : String,
-            required : [true, "Movie Name is missing"]
+            required : [true, 'Movie Name is missing']
         },
         movieCover : {
             url : {

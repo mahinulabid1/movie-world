@@ -1,10 +1,11 @@
 // prepare final data to be uploaded in MongoDB
-const processUploadedFile = require('./processUploadedFiles');
+const processUploadedFile = require( './processUploadedFiles' );
 const cloudfrontUrl = process.env.CLOUDFRONT_URL;
 
 const prepareFinalData = ( req ) => {
     let data = req.body.data;
-    data = JSON.parse(data);
+    data = JSON.parse( data );
+
     const { 
         uploadedMovieCover, 
         uploadedMovieThumbnail, 
@@ -30,7 +31,7 @@ const prepareFinalData = ( req ) => {
 
 
     // inheriting properties of fileInfoObj in data
-    Object.assign(data, fileInfoObj);
+    Object.assign( data, fileInfoObj );
     return data;
 }
 

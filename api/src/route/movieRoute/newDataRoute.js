@@ -1,5 +1,5 @@
-const {app, upload} = require('../../../index');
-const {createMovieData} = require('../../controller/movie/create/insertDataController');
+const {app, upload} = require( '../../../index' );
+const {createMovieData} = require( '../../controller/movie/create/insertDataController' );
 
 const fileFields = [
     {
@@ -7,16 +7,16 @@ const fileFields = [
         maxCount : 1
     },
     {
-        name : "movieThumbnail",
+        name : 'movieThumbnail',
         maxCount : 1
     },
     {
-        name : "trailerThumbnail",
+        name : 'trailerThumbnail',
         maxCount : 1
     }
 ]
 
-app.post('/newMovie' , upload.fields(fileFields), (req,res) => {
+app.post( '/newMovie' , upload.fields( fileFields ), ( req , res ) => {
     /* 
         - file will be sent by form-data [ testing tool: POSTMAN application ]
         - (upload.fields), is a functions of MULTER
@@ -24,6 +24,6 @@ app.post('/newMovie' , upload.fields(fileFields), (req,res) => {
         - For debugging, try exploring the object via console.log(req.files);  
     */
     
-    createMovieData(req);
-    res.send("file received");
-})
+    createMovieData( req );
+    res.send( 'file received' );
+} )
