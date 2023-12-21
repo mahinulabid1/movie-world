@@ -66,4 +66,13 @@ query detail : projection=movieCover-movieThumbnail
 ```
 Explain: set multiple field using `-` seperator. <br> The route fetches `movieCover & movieThumbnail` Since I wrote `projection=movieCover-movieThumbnail`. <br> 
 RESPONSE: API route for fetching specific Movie's detail  ID.
-> NB: currently you can't specify more than one separator in the projection.
+
+<br>
+
+#### Create new movie Data
+```console
+Request Type: GET
+------------------------
+route LINK: http://localhost:8000/newMovie
+
+```
