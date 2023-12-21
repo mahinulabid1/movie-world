@@ -28,6 +28,13 @@ input {
     padding-right : 300px;
 }
 
+.bound-margin{
+    width: 1320px;
+    /* height: 100%; */
+    margin-left:  auto;
+    margin-right : auto; 
+}
+
 .border-radius {
     border-radius: 20px;
 }
