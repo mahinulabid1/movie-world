@@ -1,18 +1,35 @@
 import styles from "./footer.module.css"
+import {useState, useEffect} from 'react'
+import axios from "axios";
 
 const Footer = () => {
+    const [data, setData] = useState([]);
+    
+    useEffect(()=> {
+        axios.get('http://localhost:8000/upcomingMovies?projection=movieName&limit=5')
+        .then((result)=>{
+            const fetchedData = result.data;
+            setData(fetchedData);
+            // console.log(fetchedData)
+        })
+    }, []);
+
+    
     return(
         <footer className = { styles.container }>
-            <div className={styles.flexContainer + " flex flex-s-b bound"}>
+            <div className={styles.flexContainer + " flex flex-s-b bound-margin"}>
 
                 <div className="flex flex-s-b "> 
                     <div className={styles.flexItem}>
                         <h6 className={styles.footerHeading}>UPCOMING MOVIES</h6>
-                        <a href="/">JAWAN</a>
-                        <a href="/">The Vampire Diaries</a>
-                        <a href="/">Barbie</a>
-                        <a href="/">Teen All</a>
-                        <a href="/">NCIS</a>
+                        {   
+                            data.map((el, index)=>{
+                                return(
+                                    <a href={`/movieDetail?id=${el._id}`} key={index}>{el.movieName}</a>
+                                )
+                                
+                            })
+                        }
                     </div>
 
                     <div className={styles.flexItem}>
