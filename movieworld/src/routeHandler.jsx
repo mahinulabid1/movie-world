@@ -1,15 +1,15 @@
-import { createBrowserRouter } from "react-router-dom";
-import Homepage from "./app/homepage/homepage";
-import MovieDetailPage from "./app/movieDetailpage/movieDetail";
+import { createBrowserRouter } from 'react-router-dom';
+import Homepage from './app/homepage/homepage';
+import MovieDetailPage from './app/movieDetailpage/movieDetail';
 
 
 const routeHandler = createBrowserRouter ( [
     {
-        path : "/",
+        path : '/',
         element : <Homepage />,
     },
     {
-        path :  "/movieDetail",
+        path :  '/movieDetail',
         element : <MovieDetailPage />
     }
 

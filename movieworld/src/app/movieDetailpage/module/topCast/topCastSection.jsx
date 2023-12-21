@@ -1,4 +1,4 @@
-import styles from "./topCastSection.module.css";
+import styles from './topCastSection.module.css';
 
 const cast = [
     {
@@ -40,17 +40,17 @@ const cast = [
 
 const TopCast = ( ) => {
 
-    return(
-        <section className={styles.container + " bound"}>
-            <h2>TOP <span>CAST</span></h2>
+    return (
+        <section className = { styles.container + ' bound'}>
+            <h2> TOP <span> CAST </span> </h2>
 
-            <div className="flex flex-wrap">
+            <div className ='flex flex-wrap'>
                 {
-                    cast.map( ( el, index ) => {
+                    cast.map ( ( el, index ) => {
                         return(
                             <>
-                                <div className={styles.flexItem + " border-radius flex"} key={index}>
-                                    <img src={el.image} alt={el.name} />
+                                <div className = { styles.flexItem + ' border-radius flex' } key = { index } >
+                                    <img src = { el.image } alt = { el.name } />
                                     <div>
                                         <p className = { styles.castRealName }> { el.name } </p>
                                         <p className = { styles.characterName }> as { el.characterName } </p>
