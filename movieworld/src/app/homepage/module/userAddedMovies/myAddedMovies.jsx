@@ -13,29 +13,33 @@ const UserAddedMovies = () => {
     }, []);
 
     return(
-        <section className={styles.container + " bound"}>
-            <h1>MY ADDED <span>MOVIES</span></h1>
-            
+        <section className={styles.container}>
+            <div className="bound-margin">
 
-            <div className="flex flex-align-center">
-                {
-                    data.map((el, index) => {
-                        console.log(el.movieCover.url);
-                        return(
-                            <>
-                                <div className={styles.addedMovies}>
-                                    <img src={el.movieCover.url} alt="" />
-                                    <button>EDIT MOVIES</button>
-                                </div>
-                            </>
-                        )
-                    })
-                }
+                <h1>MY ADDED <span>MOVIES</span></h1>
+                
+                <div className="flex flex-align-center">
+                    {
+                        data.map((el, index) => {
+                            // console.log(el.movieCover.url);
+                            return(
+                                <>
+                                    <div className={styles.addedMovies} key={index}>
+                                        <img src={el.movieCover.url} alt="" />
+                                        <button>EDIT MOVIES</button>
+                                    </div>
+                                </>
+                            )
+                        })
+                    }
 
-                <div className={styles.addMoviesButton}>
-                    <button><span>+</span> ADD MOVIE </button>
+                    <div className={styles.addMoviesButton} key={12}>
+                        <button><span>+</span> ADD MOVIE </button>
+                    </div>
                 </div>
+
             </div>
+            
         </section>
     )
 }

@@ -26,7 +26,7 @@ const HeroSection = ( ) => {
                     backgroundSize: "cover"
                 }}
             >
-                <div className="bound-margin flex flex-align-center " >
+                <div className="bound-margin flex flex-align-center " style={{width:'100%'}}>
                     {/* HERO TEXT CONTENT */}
                     <div className = { styles.textContainer }>
                         <h1>BEST WAY OF ENTERTAINMENT</h1>

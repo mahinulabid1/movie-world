@@ -4,6 +4,7 @@ import UpcomingMoviesSection from "./module/upcomingMoviesSection/upcomingMovies
 import MoviesYouRated from "./module/userRatedMovies/moviesYouRatedPage";
 import UserWatchList from "./module/userWatchList/userWatchList"
 import UserAddedMovies from "./module/userAddedMovies/myAddedMovies";
+import FeaturedSection from "./module/featuredMovieSection/featuredSection";
 import Footer from "../../ui/footer/footer";
 
 const Homepage = () => {
@@ -13,6 +14,7 @@ const Homepage = () => {
             <Navigation />
             <HeroSection />
             <UpcomingMoviesSection />
+            <FeaturedSection />
             <MoviesYouRated /> 
             <UserWatchList />
             <UserAddedMovies />

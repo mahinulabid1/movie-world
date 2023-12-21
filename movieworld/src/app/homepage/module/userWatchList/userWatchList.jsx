@@ -17,15 +17,18 @@ const UserWatchList = () => {
 
     return( 
         <>
-            <section className={"bound " + styles.container}>
-                <h1 className={styles.heading}>YOUR <span>WATCH-LIST</span></h1>
-                {   //conditional rendering
-                    data !== '' ?
-                    <SliderTempalate data = {data} />
-                    :
-                    console.log("fetching data") 
-                    
-                }
+            <section className={ styles.container}>
+                <div className="bound-margin">
+                    <h1 className={styles.heading}>YOUR <span>WATCH-LIST</span></h1>
+                    {   //conditional rendering
+                        data !== '' ?
+                        <SliderTempalate data = {data} />
+                        :
+                        console.log("fetching data") 
+                        
+                    }
+                </div>
+                
             </section>
         </>
     )

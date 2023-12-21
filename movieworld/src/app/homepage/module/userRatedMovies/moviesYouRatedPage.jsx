@@ -39,15 +39,18 @@ const MoviesYouRated = () => {
 
     return (
         <>
-            <section className={styles.container + " bound"} >
-                <h1>MOVIES YOU <span>RATED</span></h1>
-                {   //conditional rendering
-                    data !== '' ?
-                    <SliderTempalate data = {data} />
-                    :
-                    console.log("fetching data") 
-                    
-                }
+            <section className={styles.container} >
+                <div className="bound-margin">
+                    <h1>MOVIES YOU <span>RATED</span></h1>
+                    {   //conditional rendering
+                        data !== '' ?
+                        <SliderTempalate data = {data} />
+                        :
+                        console.log("fetching data") 
+                        
+                    }
+                </div>
+                
                 
                 
             </section>
