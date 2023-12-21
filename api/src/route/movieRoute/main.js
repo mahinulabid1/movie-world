@@ -4,6 +4,7 @@ require('./getFeaturedMovieRoute');
 require('./getMovieByIdRoute');
 require('./newDataRoute');
 require('./getUpcomingMovieRoute');
+require('./getReleasedMovieRoute')
 
 
 // const fs = require('fs');

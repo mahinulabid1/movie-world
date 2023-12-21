@@ -1,6 +1,6 @@
 const MovieModel = require('../../../model/movieModel');
 const projectionParser = require('../../../additionalFunction/projectionParser');
-const { query } = require('express');
+// const { query } = require('express');
 
 
 const getData = async ({queryLimit, condition, projection}) => {
