@@ -4,8 +4,8 @@ import axios from "axios";
 
 
 const HeroSection = ( ) => {
-    const [movieThumbnail, setMovieThumbnail] = useState(undefined);
-    const [movieCover, setMovieCover] = useState(undefined);
+    const [movieThumbnail, setMovieThumbnail] = useState('./loading.jpg');
+    const [movieCover, setMovieCover] = useState('./loading.jpg');
 
     //fetch data from database
     useEffect(()=> {

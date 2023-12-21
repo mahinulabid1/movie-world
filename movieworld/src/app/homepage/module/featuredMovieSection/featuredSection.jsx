@@ -3,8 +3,8 @@ import {useState, useEffect} from 'react'
 import axios from "axios";
 
 const FeaturedSection = () =>{
-    const [movieThumbnail, setMovieThumbnail] = useState(undefined);
-    const [movieCover, setMovieCover] = useState(undefined);
+    const [movieThumbnail, setMovieThumbnail] = useState('./loading.jpg');
+    const [movieCover, setMovieCover] = useState('./loading.jpg');
     const [data, setData] = useState([]);
 
     //fetch data from database

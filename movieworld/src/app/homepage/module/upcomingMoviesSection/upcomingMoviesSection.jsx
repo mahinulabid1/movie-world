@@ -23,6 +23,7 @@ const NonActiveItem =  ({ element, index }) => {
 const UpcomingMoviesSection = () => {
     const [data, setData] = useState([]);
     
+    
     useEffect(()=> {
         axios.get('http://localhost:8000/upcomingMovies?projection=movieCover-movieName&limit=5')
         .then((result)=>{

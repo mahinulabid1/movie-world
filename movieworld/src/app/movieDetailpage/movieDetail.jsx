@@ -12,8 +12,8 @@ import { useSearchParams } from 'react-router-dom';
 
 const MovieDetailPage = () => {
     const [searchParams, setSearchParams] = useSearchParams();
-    const [movieCoverImg, setMovieCoverImg] = useState(0);
-    const [ trailerThumbnail, setTrailerThumbnail ] = useState(0)
+    const [movieCoverImg, setMovieCoverImg] = useState('./loading.jpg');
+    const [ trailerThumbnail, setTrailerThumbnail ] = useState('./loading.jpg')
     const [data, setData] = useState('');
 
     // Get a specific query parameter
