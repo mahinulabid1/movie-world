@@ -151,8 +151,8 @@ RESPONSE: API route for fetching specific Movie's detail  ID.
 
 #### Create new movie Data
 ```console
-Request Type: GET
-------------------------
+Request Type: POST
+---------------------
 route LINK: http://localhost:8000/newMovie
 
 ```
