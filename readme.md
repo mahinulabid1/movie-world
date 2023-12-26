@@ -85,7 +85,7 @@ This will start compiling the react component and host the application on localh
 > Assuming you're on the main directory of the project. Run this code in terminal
 ```terminal
 cd api
-npm run start
+npm run nodemon
 ``` 
 This will start server on localhost within specific PORT.
 
